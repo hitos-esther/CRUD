@@ -1,0 +1,108 @@
+@font-face {
+    font-family: titulo;
+    src: url(../fonts/Vollkorn-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: letra;
+    src: url(../fonts/Vollkorn-VariableFont_wght.ttf);
+}
+
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100vh;
+    background-image: url("../img/hoja.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: content-box;
+}
+p{
+    font-family: letra;
+    color:#080808
+}
+#card {
+    padding: 30px 40px 20px 20px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+h1{
+    font-family: titulo;
+    color: rgb(4, 66, 18);
+    text-shadow: 2px 2px 5px rgb(24, 24, 24);
+}
+table.blueTable {
+    border: 2px solid #C5F5A1;
+    background-color: #89F54A;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.blueTable th{
+      font-family: titulo;
+      border: 1px solid #12CC17;
+      text-shadow: 2px 2px 5px rgb(24, 24, 24);
+      padding: 6px 4px;
+  }
+  table.blueTable td {
+    border: 1px solid #12CC17;
+    padding: 6px 4px;
+    font-family: letra;
+  }
+  table.blueTable tbody td {
+    font-size: 16px;
+    color: #333333;
+  }
+  table.blueTable tr:nth-child(even) {
+    background: #89F54A;
+  }
+  table.blueTable td:nth-child(even) {
+    background: #C5F5A1;
+  }
+  table.blueTable thead {
+    background: #021100;
+    background: -moz-linear-gradient(top, #006600 0%, #00ff00 100%);
+    background: -webkit-linear-gradient(top, #006600 0%, #00ff00 100%);
+    background: linear-gradient(to bottom,  #006600 0%, #00ff00 100%);
+    border-bottom: 2px solid #073301;
+  }
+  table.blueTable thead th {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #dff5ca;
+    border-left: 2px solid #d0f5d0;
+  }
+  table.blueTable thead th:first-child {
+    border-left: none;
+  }
+  
+  table.blueTable tfoot {
+    font-size: 14px;
+    font-weight: bold;
+    color: #daf7bc;
+    background: #d0f1c8;
+    border-top: 2px solid #023b07;
+  }
+  table.blueTable tfoot td {
+    font-size: 14px;
+  }
+  table.blueTable tfoot .links {
+    text-align: center;
+  }
+  table.blueTable tfoot .links a{
+    display: inline-block;
+    background: -moz-linear-gradient(top, #006600 0%, #00ff00 100%);
+    background: -webkit-linear-gradient(top, #006600 0%, #00ff00 100%);
+    background: linear-gradient(to bottom,  #006600 0%, #00ff00 100%);
+    color: #FFFFFF;
+    padding: 8px 8px;
+    border-radius: 5px;
+    font-size: larger;
+    text-decoration-line: none;
+    text-decoration: none;
+  }
+  img{
+    font-size: 15px;
+  }

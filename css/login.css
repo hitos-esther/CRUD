@@ -1,0 +1,104 @@
+/******************************************************************/
+/*****************ESTILO INTRODUCCIÓN DE LOGIN********************/
+/******************************************************************/
+
+@font-face {
+    font-family: titulo;
+    src: url(../fonts/Vollkorn-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: letra;
+    src: url(../fonts/Vollkorn-VariableFont_wght.ttf);
+}
+
+body {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-image: url("../img/hoja.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    font-family: letra;
+    color:#080808;
+}
+h1,h3,h5{
+    font-family: letra;
+    color: rgb(4, 66, 18);
+    text-shadow: 2px 2px 5px rgb(24, 24, 24);
+    text-transform: uppercase;
+}
+.card{
+    padding: 30px 40px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    border: none !important;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+.blue-text {
+    color: #061d02;
+}
+
+.form-control-label {
+    margin-bottom: 0;
+    color: darkgreen;
+}
+input,
+.password,
+text,
+button {
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgb(4, 66, 18);
+    font-size: 18px !important;
+    font-weight: 300;
+}
+
+input:focus,
+text:focus,.password:focus{
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 2px  green solid !important;
+    outline-width: 0;
+    font-weight: 400
+}
+
+.btn-block,a{
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: 400;
+    height: 43px;
+    cursor: pointer;
+    background-color: rgb(3, 61, 3);
+    background-position: center;
+    background-position-x: center;
+    color: #FFFFFF;
+    padding: 8px 8px;
+    border-radius: 5px;
+    font-size: larger;
+    text-decoration-line: none;
+}
+
+.links a,a:visited {
+    color: white;
+    text-decoration-line: none;
+  } 
+  a:link:active, a:visited:active {
+    color: white;
+  }
+.btn-block:hover,a:hover {
+    color: #fff !important
+}
+
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
